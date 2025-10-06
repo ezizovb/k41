@@ -11992,12 +11992,12 @@
     e.$isDark &&
     Ht`
       filter: invert(1);
-      opacity: 0.15;
+      opacity: 0.7;
     `}
   ${(e) =>
     !e.$isDark &&
     Ht`
-      opacity: 0.25;
+      opacity: 0.7;
     `}
 `,
         Fn = Vt.section`
@@ -12861,6 +12861,9 @@
   font-family: "Monserat";
   @media (max-width: 640px) {
     font-size: 0.65rem;
+  }
+   body.dark-theme & a {
+    color: #46acffff;
   }
 `,
         Sr = () =>
